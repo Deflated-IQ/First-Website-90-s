@@ -1,0 +1,59 @@
+/*************** Main Body **************/ 
+
+body { 
+    background-color:#beebe9; 
+}
+
+/*************** Class selector ************/
+
+h1 { 
+    color:#bb3b0e;
+    background-color:#f6eec7;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+h2 {
+    color:#bb3b0e;
+    
+}
+
+h3 {
+    color:#bb3b0e;
+   
+}
+
+hr { 
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    width: 100%;
+}
+
+img:hover { 
+    border:5px solid gold;
+}
+
+
+/************* Class selector *********/
+
+.circle {
+    margin: 3px;
+    border:5px solid black;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+
+.square {
+    border:5px solid black;
+}
+
+.brain:hover {
+    background-color: gold;
+}
+
+
+/************* ID selector *********/
